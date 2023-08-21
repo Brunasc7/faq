@@ -1,0 +1,99 @@
+body {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    margin: 10%;
+    width: 1223px;
+    height: 679px;
+    border-radius: 20px;
+}
+
+.container .images-container {
+    position: relative;
+}
+
+.images-container .image-overflow {
+    position: relative;
+}
+
+.images-container .woman {
+    position: relative;
+    bottom: -200px;
+    left: -60px;
+}
+
+.images-container .box {
+    position: absolute;
+    left: -100px;
+    bottom: 150px;
+}
+
+.container .faq {
+    width: 60vh;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 12px;
+    color: hsl(237, 12%, 33%);
+}
+
+.faq h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.faq ul {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 2px solid hsl(240, 5%, 91%);
+    padding-bottom: 20px;
+}
+
+.faq li .icon-text{
+    display: flex;
+}
+
+.icon-text img {
+    width: 8px;
+    height: 4px;
+}
+
+.faq li p {
+    width: 500px;
+    font-size: 15px;
+    color: hsl(237, 12%, 33%);
+}
+
+.faq span {
+    color: hsl(240, 6%, 50%);
+    display: none;
+}
+
+.personagem.selecionado{
+    display: contents;
+    background-color: aqua;
+}
+
+/* .faq .sessao.selecionada p {
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+    font-size: 15px;
+}
+ */
+
+
